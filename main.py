@@ -42,3 +42,6 @@ def run():
     except KeyboardInterrupt:
         pass
     httpd.server_close()
+
+if __name__ == '__main__':
+    run()
